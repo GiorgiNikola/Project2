@@ -9,6 +9,7 @@ public class OfferPageSteps {
     @Step("Click on share button")
     public OfferPageSteps clickShareBtn(){
         offerPage.shareBtn.click();
+        System.out.println("i am the change4");
         return this;
     }
 }
