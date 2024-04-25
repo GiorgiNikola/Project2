@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SauceDemo Functional Tests - Passed",
+    "traceRegex": ".*ge\\.tbc\\.tbcitacademy\\.Tests\\.saucedemo.*",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name": "SauceDemo Functional Tests - Failed",
+    "traceRegex": ".*ge\\.tbc\\.tbcitacademy\\.Tests\\.saucedemo.*",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Swoop Functional Tests - Passed",
+    "traceRegex": ".*ge\\.tbc\\.tbcitacademy\\.Tests\\.swoop.*",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name": "Swoop Functional Tests - Failed",
+    "traceRegex": ".*ge\\.tbc\\.tbcitacademy\\.Tests\\.swoop.*",
+    "matchedStatuses": ["failed"]
+  }
+]
