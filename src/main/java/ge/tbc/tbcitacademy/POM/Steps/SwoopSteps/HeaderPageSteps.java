@@ -9,7 +9,6 @@ public class HeaderPageSteps {
     @Step("Click on holiday")
     public HeaderPageSteps goToHolidaySection(){
         headerPage.holidaySectionBtn.click();
-        System.out.println("i am the change3");
         return this;
     }
 
