@@ -12,6 +12,7 @@ public class AuthorisationPageSteps {
     @Step("Validate that login page appeared")
     public AuthorisationPageSteps validateLoginPage(){
         authorisationPage.authorisationTxt.shouldBe(Condition.visible);
+        System.out.println("I am the fix1");
         return this;
     }
 

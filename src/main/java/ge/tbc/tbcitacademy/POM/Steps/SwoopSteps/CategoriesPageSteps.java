@@ -9,6 +9,7 @@ public class CategoriesPageSteps {
     @Step("Hover on food category")
     public CategoriesPageSteps hoverOnFoodCategory(){
         categoriesPage.categoryFood.hover();
+        System.out.println("I am the fix2");
         return this;
     }
 
