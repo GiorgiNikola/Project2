@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SwoopAndSauceDemoTestSuite" thread-count="6" parallel="tests">
+    <test name="SwoopTests">
+        <groups>
+            <run>
+                <include name="SwoopRegression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="ge.tbc.tbcitacademy.Tests.swoop"/>
+        </packages>
+    </test>
+
+    <test name="SauceDemoTests">
+        <groups>
+            <run>
+                <include name="SauceDemoLogin"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="ge.tbc.tbcitacademy.Tests.saucedemo"/>
+        </packages>
+    </test>
+</suite>
